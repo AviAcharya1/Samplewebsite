@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affiliate Website</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#product">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" id="cart-toggle">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="hero">
+      <h1>Welcome to our Affiliate Website</h1>
+      <p>Discover the best products in your niche.</p>
+    </section>
+  <section>
+    <div class="slider">
+      <div class="slider-controls">
+        <span class="prev" onclick="prevSlide()">&#10094;</span>
+        <div>
+          <div class="slide">
+            <img src="slide1.jpg" alt="Slide 1">
+          </div>
+          <div class="slide">
+            <img src="slide2.jpg" alt="Slide 2">
+          </div>
+          <div class="slide">
+            <img src="slide3.jpg" alt="Slide 3">
+          </div>
+          <div class="slide">
+            <img src="slide4.jpg" alt="Slide 4">
+          </div>
+          <div class="slide">
+            <img src="slide5.jpg" alt="Slide 5">
+          </div>
+          <div class="slide">
+            <img src="slide6.jpg" alt="Slide 6">
+          </div>
+        </div>
+        <span class="next" onclick="nextSlide()">&#10095;</span>
+      </div>
+    </div>
+  </section>
+
+    <section class="products" id="product">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="product1.jpg" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>Description of Product 1</p>
+          <a href="#" class="buy-button" id="add-item">Buy Now</a>
+          <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+        </div>
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product</h3>
+            <p>Description of Product</p>
+            <a href="#" class="buy-button" id="add-item" >Buy Now</a>
+            <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+          </div>
+          <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product</h3>
+            <p>Description of Product</p>
+            <a href="#" class="buy-button" id="add-item">Buy Now</a>
+            <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+          </div>
+          <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product</h3>
+            <p>Description of Product</p>
+            <a href="#" class="buy-button" id="add-item">Buy Now</a>
+            <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+          </div>
+          <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of Product 1</p>
+            <a href="#" class="buy-button" id="add-item">Buy Now</a>
+            <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+          </div>
+          <div class="product-card">
+              <img src="product1.jpg" alt="Product 1">
+              <h3>Product</h3>
+              <p>Description of Product</p>
+              <a href="#" class="buy-button" id="add-item" >Buy Now</a>
+              <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+            </div>
+            <div class="product-card">
+              <img src="product1.jpg" alt="Product 1">
+              <h3>Product</h3>
+              <p>Description of Product</p>
+              <a href="#" class="buy-button" id="add-item">Buy Now</a>
+              <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+            </div>
+            <div class="product-card">
+              <img src="product1.jpg" alt="Product 1">
+              <h3>Product</h3>
+              <p>Description of Product</p>
+              <a href="#" class="buy-button" id="add-item">Buy Now</a>
+              <a href="#" class="buy-button" id="add-item">Add to Cart</a>
+            </div>
+      </div>
+    </section>
+
+    <div class="carousel">
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="slide1.jpg" alt="Slide 1">
+        </div>
+        <div class="carousel-slide">
+          <img src="slide2.jpg" alt="Slide 2">
+        </div>
+        <div class="carousel-slide">
+          <img src="slide3.jpg" alt="Slide 3">
+        </div>
+        <div class="carousel-slide">
+          <img src="slide4.jpg" alt="Slide 4">
+        </div>
+        <div class="carousel-slide">
+          <img src="slide5.jpg" alt="Slide 5">
+        </div>
+        <div class="carousel-slide">
+          <img src="slide6.jpg" alt="Slide 6">
+        </div>
+        <div class="carousel-slide">
+          <img src="slide7.jpg" alt="Slide 7">
+        </div>
+        <div class="carousel-slide">
+          <img src="slide8.jpg" alt="Slide 8">
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>We are a team of passionate individuals dedicated to providing high-quality products to our customers. Our mission is to make your life easier and more enjoyable through our carefully curated selection of products.</p>
+      <p>With years of experience in the industry, we have developed a keen eye for identifying the best products that meet your needs and exceed your expectations.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Have a question or need assistance? Don't hesitate to reach out to us.</p>
+      <ul>
+        <li>Email: info@affiliatewebsite.com</li>
+        <li>Phone: +1 (555) 123-4567</li>
+        <li>Address: 123 Main Street, City, State, Country</li>
+      </ul>
+    </section>
+  </main>
+
+  <div class="cart-container">
+    <div class="cart-sidebar" id="cart">
+      <h2>Shopping Cart</h2>
+        <div class="cart-items">
+        <h3>Items in Cart</h3>
+        <ul id="cart-list"></ul>
+      </div>
+      <div class="cart-total">
+        <h3>Total Cost</h3>
+        <p id="total-cost">&#x20B9 0.00</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Affiliate Website</p>
+    <ul>
+      <li><a href="">Privacy Policy</a></li>
+      <li><a href="">Terms of Service</a></li>
+      <li><a href="">Sitemap</a></li>
+    </ul>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
