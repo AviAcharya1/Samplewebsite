@@ -169,7 +169,7 @@ main {
 
 .cart-container {
   position: fixed;
-  top: 0;
+  top: 2.5rem;
   right: 0;
   height: 50vh;
   z-index: 999;
